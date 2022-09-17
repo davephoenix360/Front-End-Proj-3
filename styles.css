@@ -1,0 +1,196 @@
+.body{
+    font-size: 18px;
+}
+.row{
+    margin-left: -120px;
+    margin-right: -265px;
+}
+.col-lg-6{
+    margin-right: -17px;
+    width: 762.5px;
+}
+.col-lg-6 img{
+    width: 765px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.header{
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: contain;
+    height: 850px;
+    width: 1525px;
+    background-repeat: no-repeat;
+}
+.navigate{
+    margin-top: 40px;
+    color: white;
+}
+.navigate ul{
+    float: right;
+    font-size: 25px;
+}
+.navigate ul li{
+    margin-right: 45px;
+}
+.navigate ul li button{
+    font-family: 'Fraunces';
+    color:black;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 35px;
+}
+.WAC{
+    color: white;
+    font-size: 65px;
+    margin-top: 100px;
+    font-weight: 900;
+    margin-left: 350px;
+    width: 800px;
+    font-family: 'Fraunces';
+}
+.title{
+    margin-left: 50px;
+    font-weight: 900;
+    color: white;
+    font-size: 36px;
+}
+.arrow{
+    margin-top: 100px;
+    margin-left: 750px;
+}
+.sec{
+    margin-top: -4px;
+}
+.descrip{
+    background-color: white;
+    color: hsl(232, 10%, 55%);
+    width: 500px;
+    margin-left: 150px;
+}
+.descrip h1{
+    color: hsl(212, 27%, 19%);
+    font-size: 48px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    margin-top: 160px;
+}
+.descrip p{
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.descrip .lm{
+    color:hsl(212, 27%, 15%);
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.in-pic{
+    text-align: center;
+    width: 360px;
+    margin-left: 181.25px;
+    margin-top: -200px;
+}
+.in-pic h1{
+    font-weight: 900;
+    font-size: 30px;
+}
+.in-pic p{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Barlow';
+}
+.col-lg-4{
+    width: 508px;
+    margin-top: 48px;
+}
+.col-lg-4 p{
+    color: hsl(213, 9%, 39%);
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 55px;
+}
+.col-lg-4 pre{
+    margin-top: 160px;
+    font-family: 'Fraunces';
+    margin-left: 70px;
+    font-size: 20px;
+    color:hsl(232, 10%, 60%);
+    font-weight: 900;
+    background-color: white;
+    border: 0px;
+}
+.review{
+    width: 390px;
+    text-align: center;
+}
+.review img{
+    width: 70px;
+}
+.one, .three{
+    margin-top: 288px;
+}
+.one{
+    margin-left: 100px;
+}
+.two{
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.three{
+    margin-left: -40px;
+}
+.name{
+    color: hsl(212, 27%, 15%);
+    font-size: 17px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    margin-top: 70px;
+}
+.pos{
+    color:hsl(232, 10%, 70%);
+    font-family: 'Barlow';
+    font-weight: 700;
+    margin-top: 15px;
+}
+.col-lg-3{
+    padding: 0px;
+    margin-top: 130px;
+}
+.col-lg-3 img{
+    width: 381.25px;
+    height: 450px;
+    margin-right: 0px;
+}
+.cup img{
+    width: 747px;
+}
+.footer{
+    background-color: hsl(168, 34%, 75%);
+    height: 380px;
+    color: hsl(213, 9%, 39%);
+    font-weight: 900;
+    font-size: 35px;
+}
+.footer p{
+    margin-top: 65px;
+}
+.footer a{
+    color:hsl(213, 9%, 39%);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px;
+}
+.footer ul{
+    margin-top: 20px;
+}
+.footer img{
+    margin: 15px;
+    margin-top: 85px;
+}
