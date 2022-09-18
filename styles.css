@@ -116,8 +116,9 @@
     font-size: 18px;
     margin-top: 55px;
 }
-.col-lg-4 pre{
-    margin-top: 160px;
+.client{
+    text-align: center;
+    margin-top: 250px;
     font-family: 'Fraunces';
     margin-left: 70px;
     font-size: 20px;
@@ -134,7 +135,7 @@
     width: 70px;
 }
 .one, .three{
-    margin-top: 288px;
+    margin-top: 80px;
 }
 .one{
     margin-left: 100px;
@@ -193,4 +194,90 @@
 .footer img{
     margin: 15px;
     margin-top: 85px;
+}
+
+@media screen and (max-width: 375px) {
+    .row{
+        margin-left: -30px;
+        margin-right: 0px;
+        width: 375px;
+    }
+    .header{
+        background-image: url("images/mobile/image-header.jpg");
+        background-size: contain;
+        width: 375px;
+        margin-left: -15px;
+        height: 600px;
+    }
+    .row .navigate ul{
+        visibility: hidden;
+    }
+    .WAC{
+        text-align: center;
+        font-size: 40px;
+        margin-left: 77px;
+        width: 221px
+    }
+    .arrow{
+        margin-left: 167.5px;
+        margin-top: 30px;
+    }
+    .sec{
+        margin-top: -100px;
+    }
+    .col-lg-6, .descrip{
+        width: 375px;
+    }
+    .col-lg-6 img{
+        width: 375px;
+        height: 450px;
+    }
+    .descrip{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .descrip h1{
+        font-size: 40px;
+    }
+    .in-pic{
+        margin-left: 60px;
+        width: 250px;
+    }
+    .in-pic h1{
+        font-size: 15px;
+    }
+    .in-pic p{
+        font-size: 10px;
+    }
+    .client{
+        width: 375px;
+        margin-left: 15px;
+    }
+    .col-lg-4{
+        width: 375px;
+    }
+    .review{
+        width: 375px;
+    }
+    .one, .two, .three{
+        margin: 0px;
+    }
+    .col-lg-3{
+        margin: 0px;
+        width: 187.5px;
+    }
+    .col-lg-3 img{
+        width: 202px;
+        height: auto;
+    }
+    .gallery{
+        margin-top: 60px;
+    }
+    .first, .second, .third, .fourth{
+        margin: 0px;
+        float: left;
+    }
+    .footer{
+        margin-left: -15px;
+    }
 }
