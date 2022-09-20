@@ -1,283 +1,324 @@
-.body{
-    font-size: 18px;
+.container{
+    width: 100%;
 }
-.row{
-    margin-left: -120px;
-    margin-right: -265px;
+.back{
+    width: 100%;
 }
-.col-lg-6{
-    margin-right: -17px;
-    width: 762.5px;
-}
-.col-lg-6 img{
-    width: 765px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-.header{
-    background-image: url(images/desktop/image-header.jpg);
-    background-size: contain;
-    height: 850px;
-    width: 1525px;
-    background-repeat: no-repeat;
-}
-.navigate{
-    margin-top: 40px;
-    color: white;
-}
-.navigate ul{
-    float: right;
-    font-size: 25px;
-}
-.navigate ul li{
-    margin-right: 45px;
-}
-.navigate ul li button{
-    font-family: 'Fraunces';
-    color:black;
-    padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 16px;
-    font-weight: 700;
-    background-color: white;
-    border-radius: 35px;
-}
-.WAC{
-    color: white;
-    font-size: 65px;
-    margin-top: 100px;
-    font-weight: 900;
-    margin-left: 350px;
-    width: 800px;
-    font-family: 'Fraunces';
+.mobile{
+    position: absolute;
+    visibility: hidden;
 }
 .title{
-    margin-left: 50px;
-    font-weight: 900;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 3%;
+    width: 10%;
+}
+.dropdown{
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 90%;
+    visibility: hidden;
+}
+.dropdown-menu{
+    text-align: center;
+}
+.dropdown .dropdown-menu .btn{
+    background-color: yellow;
+    border-radius: 30px;
+    padding: 3%;
+}
+.header .l{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 1%;
+    font-size: 20px;
     color: white;
-    font-size: 36px;
+}
+.header .l li{
+    margin-right: 2vw;
+}
+.header .l li button{
+    color: black;
+    font-family: 'Fraunces';
+    background-color: white;
+    border-radius: 25px;
+}
+.WAC{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 25%;
+    color: white;
+    width: 60%;
+    font-size: 45px;
+    letter-spacing: 15px;
+    font-family: 'Fraunces';
+    font-weight: 900;
 }
 .arrow{
-    margin-top: 100px;
-    margin-left: 750px;
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 48%;
 }
-.sec{
-    margin-top: -4px;
+.col-lg-6, .col-lg-3{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.tyb{
+    text-align: left;
+    margin-top: 20%;
+    font-size: 18px;
+    width: 64%;
+    font-weight: 700;
+    color: hsl(210, 4%, 67%);
+    margin-left: 18%;
+}
+.tyb h1{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    color: hsl(212, 27%, 19%);
+    margin-bottom: 10%;
+}
+.lm{
+    margin-top: 10%;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+    margin-bottom: 10%;
+}
+.col-lg-6 img{
+    width: 100%;
 }
 .descrip{
-    background-color: white;
-    color: hsl(232, 10%, 55%);
-    width: 500px;
-    margin-left: 150px;
+    text-align: left;
+    margin-top: 20%;
+    font-size: 18px;
+    width: 64%;
+    font-weight: 700;
+    color: hsl(210, 4%, 67%);
+    margin-left: 18%;
 }
 .descrip h1{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
     color: hsl(212, 27%, 19%);
-    font-size: 48px;
-    font-family: 'Fraunces';
-    font-weight: 900;
-    margin-top: 160px;
+    margin-bottom: 10%;
 }
-.descrip p{
-    margin-top: 50px;
+.gd{
+    position: relative;
+    margin-top: -30%;
+    width: 60%;
     font-size: 18px;
-    font-weight: 600;
-}
-.descrip .lm{
-    color:hsl(212, 27%, 15%);
+    margin-left: 20%;
     font-family: 'Fraunces';
-    font-weight: 900;
-    font-size: 15px;
-    margin-left: 10px;
-}
-.in-pic{
+    color: hsl(167, 40%, 24%);
     text-align: center;
-    width: 360px;
-    margin-left: 181.25px;
-    margin-top: -200px;
+    font-weight: 700;
 }
-.in-pic h1{
+.gd h1{
     font-weight: 900;
-    font-size: 30px;
 }
-.in-pic p{
-    margin-top: 20px;
-    font-weight: 600;
-    font-size: 16px;
-    font-family: 'Barlow';
-}
-.col-lg-4{
-    width: 508px;
-    margin-top: 48px;
-}
-.col-lg-4 p{
-    color: hsl(213, 9%, 39%);
-    font-weight: 600;
+.pg{
+    position: relative;
+    margin-top: -30%;
+    width: 60%;
     font-size: 18px;
-    margin-top: 55px;
+    margin-left: 20%;
+    font-family: 'Fraunces';
+    color: hsl(198, 62%, 26%);
+    text-align: center;
+    font-weight: 700;
+}
+.pg h1{
+    font-weight: 900;
+}
+.f{
+    margin-bottom: 20%;
 }
 .client{
     text-align: center;
-    margin-top: 250px;
-    font-family: 'Fraunces';
-    margin-left: 70px;
+    letter-spacing: 5px;
     font-size: 20px;
-    color:hsl(232, 10%, 60%);
+    color: hsl(210, 4%, 67%);
     font-weight: 900;
-    background-color: white;
-    border: 0px;
+    margin-bottom: 10%;
 }
-.review{
-    width: 390px;
+.col-lg-4{
     text-align: center;
 }
-.review img{
-    width: 70px;
+.col-lg-4 img{
+    width: 20%;
+    margin-bottom: 10%;
 }
-.one, .three{
-    margin-top: 80px;
+.one, .two, .three{
+    width: 75%;
 }
 .one{
-    margin-left: 100px;
+    margin-left: 50%;
 }
 .two{
-    margin-left: 30px;
-    margin-top: 80px;
+    margin-left: 25%;
 }
-.three{
-    margin-left: -40px;
+.col-lg-4 p{
+    font-size: 14px;
+    color:hsl(232, 10%, 55%);
+    font-weight: 700;
 }
 .name{
-    color: hsl(212, 27%, 15%);
-    font-size: 17px;
+    color: hsl(212, 27%, 19%);
+    font-size: 20px;
+    margin-top: 10%;
     font-family: 'Fraunces';
     font-weight: 900;
-    margin-top: 70px;
 }
 .pos{
-    color:hsl(232, 10%, 70%);
-    font-family: 'Barlow';
-    font-weight: 700;
-    margin-top: 15px;
-}
-.col-lg-3{
-    padding: 0px;
-    margin-top: 130px;
+    color:hsl(232, 10%, 55%);
+    margin-top: 3%;
+    margin-bottom: 10%;
 }
 .col-lg-3 img{
-    width: 381.25px;
-    height: 450px;
-    margin-right: 0px;
-}
-.cup img{
-    width: 747px;
+    width: 100%;
 }
 .footer{
-    background-color: hsl(168, 34%, 75%);
-    height: 380px;
-    color: hsl(213, 9%, 39%);
-    font-weight: 900;
-    font-size: 35px;
+    text-align: center;
+    background-color: hsl(210, 4%, 80%);
 }
-.footer p{
-    margin-top: 65px;
+.lowertitle{
+    margin-top: 4%;
+    margin-bottom: 3%;
 }
-.footer a{
-    color:hsl(213, 9%, 39%);
-    font-size: 18px;
-    font-weight: 500;
-    margin: 15px;
+.footer li{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
 }
-.footer ul{
-    margin-top: 20px;
+.footer li a{
+    color: hsl(232, 10%, 55%);
+    font-weight: 700;
 }
 .footer img{
-    margin: 15px;
-    margin-top: 85px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
-
-@media screen and (max-width: 375px) {
-    .row{
-        margin-left: -30px;
-        margin-right: 0px;
-        width: 375px;
-    }
-    .header{
-        background-image: url("images/mobile/image-header.jpg");
-        background-size: contain;
-        width: 375px;
-        margin-left: -15px;
-        height: 600px;
-    }
-    .row .navigate ul{
-        visibility: hidden;
+@media screen and (max-width: 1024px) {
+    .header .l{
+        font-size: medium;
     }
     .WAC{
-        text-align: center;
-        font-size: 40px;
-        margin-left: 77px;
-        width: 221px
-    }
-    .arrow{
-        margin-left: 167.5px;
-        margin-top: 30px;
-    }
-    .sec{
-        margin-top: -100px;
-    }
-    .col-lg-6, .descrip{
-        width: 375px;
-    }
-    .col-lg-6 img{
-        width: 375px;
-        height: 450px;
-    }
-    .descrip{
-        margin-left: 0px;
-        text-align: center;
-    }
-    .descrip h1{
-        font-size: 40px;
-    }
-    .in-pic{
-        margin-left: 60px;
-        width: 250px;
-    }
-    .in-pic h1{
-        font-size: 15px;
-    }
-    .in-pic p{
-        font-size: 10px;
-    }
-    .client{
-        width: 375px;
-        margin-left: 15px;
-    }
-    .col-lg-4{
-        width: 375px;
-    }
-    .review{
-        width: 375px;
+        font-size: 30px;
     }
     .one, .two, .three{
-        margin: 0px;
+        margin-left: 10%;
     }
-    .col-lg-3{
-        margin: 0px;
-        width: 187.5px;
+}
+@media screen and (max-width: 768px) {
+    .header .l{
+        font-size: 9.8px;
     }
-    .col-lg-3 img{
-        width: 202px;
-        height: auto;
+    .WAC{
+        font-size: 20px;
     }
-    .gallery{
-        margin-top: 60px;
+}
+@media screen and (max-width: 425px) {
+    .container{
+        overflow: hidden;
     }
-    .first, .second, .third, .fourth{
-        margin: 0px;
+    .back{
+        visibility: hidden;
+        position: absolute;
+    }
+    .row .mobile{
+        visibility: visible;
+        position: relative;
+        z-index: -1;
+        width: 100%;
+    }
+    .title{
+        width: 20%;
+    }
+    .header .l{
+        visibility: hidden;
+        position: absolute;
+    }
+    .dropdown{
+        visibility: visible;
+        margin-top: 5%;
+        margin-left: 80%;
+    }
+    .dropdown .btn{
+        background-color: transparent;
+    }
+    .dropdown-menu{
+        margin-left: -200%;
+    }
+    .dropdown-menu li{
+        margin-bottom: 5%;
+    }
+    .WAC{
+        font-size: 40px;
+        margin-left: 3%;
+        letter-spacing: 5px;
+        text-align: center;
+        width: 100%;
+        margin-top: 40%;
+    }
+    .arrow{
+        margin-top: 80%;
+    }
+    .tyb{
+        position: absolute;
+        visibility: hidden;
+        width: 0px;
+    }
+    .trans img{
+        visibility: hidden;
+        position: absolute;
+        width: 0%;
+    }
+    .trans .mobile{
+        text-align: left;
+        margin-top: 20%;
+        font-size: 18px;
+        width: 64%;
+        font-weight: 700;
+        color: hsl(210, 4%, 67%);
+        margin-left: 18%;
+    }
+    .trans .mobile h1{
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 40px;
+        color: hsl(212, 27%, 19%);
+        margin-bottom: 10%;
+    }
+    .cup{
+        visibility: hidden;
+        position: absolute;
+        width: 0%;
+    }
+    .gd, .pg{
+        margin-top: -70%;
+        width: 70%;
+        margin-left: 15%;
+    }
+    .gd p{
+        font-size: 15px;
+    }
+    .client{
+        margin-top: 30%;
+    }
+    .gallery .mobile{
+        width: 50%;
         float: left;
     }
-    .footer{
-        margin-left: -15px;
+    .lowertitle{
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
+    .accounts{
+        margin-bottom: 5%;
+    }
+
 }
