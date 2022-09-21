@@ -1,11 +1,13 @@
 .container{
     width: 100%;
+    overflow: hidden;
 }
 .back{
     width: 100%;
 }
 .mobile{
     position: absolute;
+    margin-left: -90%;
     visibility: hidden;
 }
 .title{
@@ -233,6 +235,7 @@
         visibility: visible;
         position: relative;
         z-index: -1;
+        margin-left: auto;
         width: 100%;
     }
     .title{
